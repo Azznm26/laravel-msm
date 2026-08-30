@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'back_to_task_management' => 'Back to Task Management',
+    'manage_questions_title' => 'Manage Questions: :title',
+    'questions_count' => '{0} :count Questions|[1,1] :count Question|[2,*] :count Questions',
+    'total_score' => 'Total Score: :score',
+    'add_question' => 'Add Question',
+    'no_questions' => 'No questions have been added for this task yet.',
+    'points' => ':score Points',
+    'confirm_delete_question' => 'Are you sure you want to delete this question?',
+
+    'question_progress' => 'Question :current of :total',
+    'complete_count' => ':complete/:total complete',
+    'question_label' => 'Question',
+    'question_placeholder' => 'Write the question here...',
+    'answer_options' => 'Answer Options',
+    'answer_options_hint' => '(click the circle to mark the correct answer)',
+    'option_placeholder' => 'Option :option text',
+    'option_label' => 'Option :option',
+    'score_weight' => 'Score Weight',
+    'score_weight_hint' => 'points for this question',
+    'previous' => 'Previous',
+    'next' => 'Next',
+    'new_question' => 'New Question',
+    'cancel' => 'Cancel',
+    'save_all_questions' => 'Save All Questions (:count)',
+    'saving' => 'Saving...',
+    'confirm_remove_field' => 'Remove this question from the list?',
+    'correct_answer' => 'Correct Answer',
+    'save_changes' => 'Save Changes',
+];

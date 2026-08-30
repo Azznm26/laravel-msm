@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'back_to_task_management' => 'Kembali ke Manajemen Task',
+    'manage_questions_title' => 'Manajemen Soal: :title',
+    'questions_count' => '{0} :count Soal|[1,*] :count Soal',
+    'total_score' => 'Total Skor: :score',
+    'add_question' => 'Tambah Soal',
+    'no_questions' => 'Belum ada soal untuk task ini.',
+    'points' => ':score Poin',
+    'confirm_delete_question' => 'Yakin ingin menghapus soal ini?',
+
+    'question_progress' => 'Soal :current dari :total',
+    'complete_count' => ':complete/:total lengkap',
+    'question_label' => 'Pertanyaan',
+    'question_placeholder' => 'Tulis pertanyaan di sini...',
+    'answer_options' => 'Pilihan Jawaban',
+    'answer_options_hint' => '(klik lingkaran untuk tandai kunci jawaban)',
+    'option_placeholder' => 'Teks pilihan :option',
+    'option_label' => 'Pilihan :option',
+    'score_weight' => 'Bobot Skor',
+    'score_weight_hint' => 'poin untuk soal ini',
+    'previous' => 'Sebelumnya',
+    'next' => 'Selanjutnya',
+    'new_question' => 'Soal Baru',
+    'cancel' => 'Batal',
+    'save_all_questions' => 'Simpan Semua Soal (:count)',
+    'saving' => 'Menyimpan...',
+    'confirm_remove_field' => 'Hapus soal ini dari daftar?',
+    'correct_answer' => 'Kunci Jawaban',
+    'save_changes' => 'Simpan Perubahan',
+    'confirm_delete_title' => 'Hapus Soal?',
+];
