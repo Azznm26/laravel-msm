@@ -14,7 +14,6 @@ return new class extends Migration
         Schema::create('career_path_levels', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
-            $table->integer('level');
             $table->string('name');
             $table->integer('required_score')->default(0);
             $table->boolean('is_unlocked')->default(false);
