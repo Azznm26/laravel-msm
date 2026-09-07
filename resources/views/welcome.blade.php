@@ -415,7 +415,9 @@
 
         /* ---------- Small-screen refinements ---------- */
         @media (max-width: 400px) {
-            .hero-glow, .hero-glow-secondary {
+
+            .hero-glow,
+            .hero-glow-secondary {
                 width: 320px !important;
                 height: 320px !important;
             }
