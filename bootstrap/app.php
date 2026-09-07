@@ -16,6 +16,9 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware) {
 
+        // ✅ PERBAIKAN MIXED CONTENT: percaya proxy Railway
+        $middleware->trustProxies(at: '*');
+
         // ✅ Terapkan locale user di setiap request web
         $middleware->web(append: [
             SetLocale::class,
