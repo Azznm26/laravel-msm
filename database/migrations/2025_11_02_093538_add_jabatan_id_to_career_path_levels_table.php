@@ -8,17 +8,17 @@ return new class extends Migration
 {
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->foreignId('career_path_id')->nullable()->after('jabatan_id');
-            $table->foreign('career_path_id')->references('id')->on('career_paths')->onDelete('set null');
+        Schema::table('career_path_levels', function (Blueprint $table) {
+            $table->foreignId('jabatan_id')->nullable()->after('id')
+                ->constrained('jabatans')->onDelete('set null');
         });
     }
 
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->dropForeign(['career_path_id']);
-            $table->dropColumn('career_path_id');
+        Schema::table('career_path_levels', function (Blueprint $table) {
+            $table->dropForeign(['jabatan_id']);
+            $table->dropColumn('jabatan_id');
         });
     }
 };
